@@ -1,2 +1,4 @@
 # TestingBeginner
-testing repository for Beginner
+Hi All,
+
+Jitendra here, I like Node.js and angularJs.
