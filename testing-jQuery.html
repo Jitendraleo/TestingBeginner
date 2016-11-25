@@ -1,0 +1,25 @@
+<html>
+<head>
+	<title>Find Parent Element</title>
+	<script src="https://code.jquery.com/jquery-1.10.2.js"></script>
+</head>
+<body>
+<div class="custPopup" id="addClient" style="border:1px dashed red;line-height:100px;padding-left:20px;">
+    <div class="k-window-titlebar k-header ">
+        <span class="k-window-title"></span>
+        <div class="k-window-actions">
+            <a role="button" href="#" class="k-window-action k-link">
+                <span class="k-icon k-i-close">Close</span>
+            </a>
+        </div>
+    </div>
+</div>
+</body>
+</html>
+<script type="text/javascript">
+$("a.k-window-action").on("click",function(){
+	var aa = this.closest("div.custPopup");
+	$(aa).css("background-color","yellow");
+});
+
+</script>
